@@ -12,7 +12,7 @@ int main()
     int uc = getUserChoice();
     clearScreen();
 
-    cout << "user chose " << termcolor::bright_red << uc << endl;
+    cout << "user DID chose " << termcolor::bright_red << uc << endl;
 
 
     while(true){};
